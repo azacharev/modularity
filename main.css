@@ -1,1 +1,225 @@
-/* ADD YOUR STYLES HERE */
+.box-set {
+  text-align: center;
+}
+
+.box1 {
+  margin: auto;
+  padding-right: 50px;
+}
+
+.box3 {
+  padding-left: 50px;
+}
+
+.box-a  { /*120 box */
+  height: 120px;
+  width: 120px;
+  padding-bottom: 40px;
+  /*padding-right: 50px; */
+  /*padding-bottom: 137px; */
+}
+
+.box-b { /* 160 box */
+  height: 160px;
+  width: 160px;
+  padding-left: 50px;
+  /*padding-bottom: 100px; */
+  /*padding-left: 50px; */
+}
+
+.box-c { /*80 box*/
+  height: 80px;
+  width: 80px;
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+
+}
+
+.shiftedHello {
+  text-align: center;
+  border-bottom: 50px;
+  position: relative;
+  bottom: 165px;
+  left: 30px;
+}
+
+.rfa {
+  position: relative;
+  left: 125px;
+}
+
+/* ---------Start exercise 2----------*/
+
+.box-set3 {
+  position:relative;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.box-word-grouping {
+  position: relative;
+  padding-top: 75px;
+}
+
+/* ---------Start exercise 3-----------*/
+
+/* Nothing for exercise 3 */
+
+/* ---------Start exercise 4-----------*/
+.Buy-Now-button{
+	background-color:#e4685d;
+	-moz-border-radius:50px;
+	-webkit-border-radius:10px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:25px 45px;
+	text-decoration:none;
+}
+
+.Standard-button{
+  background-color:#e4685d;
+	-moz-border-radius:50px;
+	-webkit-border-radius:10px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+
+}
+
+.OK-button{
+  background-color:#e4685d;
+	-moz-border-radius:50px;
+	-webkit-border-radius:10px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 5px;
+	text-decoration:none;
+}
+/*------- Start exercise 5 -----------*/
+nav ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #e4685d;
+  /*-moz-border-radius:10px;*/
+	-webkit-border-radius:10px;
+	border-radius:0px;
+	/*border:1px solid #ffffff;*/
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*------ Start exercise 6 ---------*/
+.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.pe {
+  display: inline;
+}
+
+.pe a{
+  color: #e4685d;
+   float: left;
+   padding: 8px 16px;
+   text-decoration: none;
+   transition: background-color .3s;
+   border: 1px solid #ddd;
+   margin: 0 4px;
+}
+
+.pe span{
+  color: grey;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+/*--------Start exercise 7 ----------*/
+.large-pink-identicon{
+    float: left;
+    position:relative;
+    height: 80px;
+    width: 80px;
+    right: 80px;
+    top: 50px;
+}
+
+.large-green-identicon{
+  float: left;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  right: 160px;
+  top: 100px;
+}
+
+/*--------Start exercise 8 -----------*/
+
+.tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs li {
+  display: inline;
+  border: solid;
+  border-width: 1px 1px 0 1px;
+  margin: 0 5px 0 0;
+}
+
+.tabs li a {
+  padding: 0 10px;
+}
+
+#tab-content{
+  border: 1px solid;
+}
+
+/* -------------Start exercise 9 ---------*/
+#outerlightbox {
+  background-color: grey;
+  overflow: hidden;
+}
+
+#innerlightbox {
+  position: relative;
+  width: 75%;
+  height: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+}
